@@ -1,0 +1,25 @@
+/* CSS Variables */
+:root {
+	--clr-neutral-50: hsl(0, 0%, 100%);
+	--clr-neutral-100: hsl(0, 0%, 98%);
+	--clr-neutral-400: hsl(0,0%, 41%);
+	--clr-neutral-600: hsl(0, 0%, 8%);
+
+  --scr-change-width: 50rem;
+
+	--fs-300: 1rem;
+	--fs-400: 1.125rem;
+	--fs-800: 2.5rem;
+
+	--fs-nav:var(--fs-300);
+	--fs-body: var(--fs-400);
+	--fs-heading: var(--fs-800);
+
+	--ff-primary: 'Epilogue', sans-serif;
+
+	--fw-regular: 500;
+	--fw-bold: 700;
+
+	--ff-body: var(--ff-primary);
+}
+
