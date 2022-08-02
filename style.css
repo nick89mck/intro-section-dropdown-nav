@@ -9,7 +9,7 @@
 
 	--fs-300: 1rem;
 	--fs-400: 1.125rem;
-	--fs-800: 2.5rem;
+	--fs-800: 4.5rem;
 
 	--fs-nav:var(--fs-300);
 	--fs-body: var(--fs-400);
@@ -137,3 +137,72 @@ picture {
 .fs-heading {
 	font-size: var(--fs-heading);
 }
+
+
+/* Main styling */
+.container {
+	height: 100%;
+}
+
+.even-columns {
+	display: grid;
+	gap: 3rem;
+	grid-auto-flow: row;
+	grid-auto-rows: 1fr;
+	height: 80%;
+	align-items: center;
+}
+.content {
+	 margin-left: 8rem
+}
+.content * {
+	margin-block: 2rem
+}
+.content>h1 {
+	margin-top: 10rem;
+}
+
+@media (min-width: 50em) {
+	.even-columns {
+		grid-auto-flow: column;
+		grid-auto-columns: 1fr;
+	
+	}
+}
+
+button {
+	padding: .8rem 1.5rem;
+	border-radius: 15px;
+	border-width: 1;
+}
+button:hover {
+	color: var(--clr-neutral-50);
+	background-color: var(--clr-neutral-400);
+}
+button:active {
+	color: var(--clr-neutral-600);
+	background-color: var(--clr-neutral-100);
+}
+.clients {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+.hero-image {
+	/* order: 1; */
+	background-image: url(./images/image-hero-mobile.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: contain;
+}
+
+@media (min-width: 50em) {
+	.hero-image {
+		background-image: url(./images/image-hero-desktop.png);
+	}
+}
+
