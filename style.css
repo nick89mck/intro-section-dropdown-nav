@@ -88,3 +88,52 @@ picture {
     scroll-behavior: auto !important;
   }
 }
+
+/* Utility Classes */
+
+.ff-body {
+	font-family: var(--ff-body);
+}
+
+.text-neutral-50 {
+	 color: var(--clr-neutral-50);
+}
+.text-neutral-100 {
+	 color: var(--clr-neutral-100);
+}
+.text-neutral-400 {
+	 color: var(--clr-neutral-400);
+}
+.text-neutral-600 {
+	 color: var(--clr-neutral-600);
+}
+
+.bg-neutral-50 {
+	 background-color: var(--clr-neutral-50);
+}
+.bg-neutral-100 {
+	 background-color: var(--clr-neutral-100);
+}
+.bg-neutral-400 {
+	 background-color: var(--clr-neutral-400);
+}
+.bg-neutral-600 {
+	 background-color: var(--clr-neutral-600);
+}
+
+.fw-regular {
+	font-weight: var(--fw-regular);
+}
+.fw-bold {
+	font-weight: var(--fw-bold);
+}
+
+.fs-nav {
+	font-size: var(--fs-nav);
+}
+.fs-body {
+	font-size: var(--fs-body);
+}
+.fs-heading {
+	font-size: var(--fs-heading);
+}
